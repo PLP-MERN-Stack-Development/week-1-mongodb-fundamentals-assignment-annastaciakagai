@@ -40,8 +40,44 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 3. Include a screenshot of your MongoDB database
 4. Update the README.md with your specific setup instructions
 
-## Resources
+![plp_bookstore database](image-1.png)
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+## Setup Instructions
+
+1. **Install Node.js**  
+   Download and install Node.js (v18 or higher) from [nodejs.org](https://nodejs.org/).
+
+2. **Install MongoDB**  
+   - For local setup: Download and install MongoDB Community Server and MongoDB Compass from [mongodb.com](https://www.mongodb.com/try/download/community).
+   - Or, create a free MongoDB Atlas account and cluster if you prefer a cloud database.
+
+3. **Clone the Repository**  
+   ```
+   git clone <your-repo-url>
+   cd week-1-mongodb-fundamentals-assignment-annastaciakagai
+   ```
+
+4. **Install Dependencies**  
+   ```
+   npm install mongodb
+   ```
+
+5. **Configure MongoDB Connection**  
+   - If using MongoDB Atlas, update the connection string in `insert_books.js` to use your Atlas URI.
+   - For local MongoDB, the default URI should work: `mongodb://localhost:27017`.
+
+6. **Insert Sample Data**  
+   Run the script to populate the database:
+   ```
+   node insert_books.js
+   ```
+
+7. **Run Queries**  
+   - Open MongoDB Compass or use `mongosh` to connect to your database.
+   - Copy and paste the queries from `queries.js` into the shell or Compass to test.
+
+
+**Tip:**  
+Adjust these steps if you made any custom changes (e.g., different database name, extra environment variables, etc.).
+
+
