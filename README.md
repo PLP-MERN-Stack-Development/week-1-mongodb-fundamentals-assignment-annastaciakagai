@@ -40,7 +40,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 3. Include a screenshot of your MongoDB database
 4. Update the README.md with your specific setup instructions
 
-![plp_bookstore database](image-1.png)
+![plp_bookstore database](books_collection.png)
 
 ## Setup Instructions
 
